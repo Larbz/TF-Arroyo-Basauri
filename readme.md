@@ -40,3 +40,24 @@ Para este proyecto, utilizaremos el conjunto PADE (Python Agent DEvelopment) par
 Primero se crean las clases de los agentes a utilizar, Cliente y Dron, ambos heredan de la clase Agente que proporciona Pade. Cada agente tiene que tener definido un comportamiento, el del cliente estara ligado unicamente a un tiempo, el del dron a la recepcion de un mensaje de protocolo FIPA.
 Luego tenemos que crear variables globales que nos ayudaran con los estados de nuestro agentes. Se crea un array para todos los agentes que se ejecutara en bucle, un array para guardar los clientes, un array para los drones, y una cola para los drones que nos ayudara a manejar las asignaciones de deliverys.
 Despues de instanciados los agentes se procede a almacenar en las estructuras de datos. Se ejecutan los bucles y se proceden a definir las reglas de funcionamiento.
+
+### Sprites
+Cliente solicitando un pedido
+
+![Cliente solicitando un pedido](./images/character.png)
+
+Cliente alimentandose
+
+![Cliente alimentandose](./images/characterEating.png)
+
+Dron libre para pedido
+
+![Dron libre para pedido](./images/dron.png)
+
+Dron realizando un envio
+
+![Dron realizando un envio](./images/dronBusy.png)
+
+### Captura del programa
+
+![Captura del programa](./images/programaSs.jpg)
