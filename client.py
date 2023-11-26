@@ -28,8 +28,6 @@ class ClientAgent(Agent):
         self.comport_request = CompRequest(self)
         self.behaviours.append(self.comport_request)
         self.comport_temp = ComportTemporal(self, 2, self.message)
-        # self.comport_request = CompRequest2(self, self.message)
-        # self.behaviours.append(self.comport_request)
         self.behaviours.append(self.comport_temp)
 
 

@@ -1,3 +1,7 @@
+# Enlace exposicion
+
+### Exposicion TF (https://www.youtube.com/watch?v=mykSN4Ysyt0)
+
 # Presentación del Proyecto: Drones de Delivery con Multi-Agent System (MAS)
 ![UPC_logo_transparente](./images/UPC_logo_transparente.png)
 
@@ -57,6 +61,12 @@ Dron libre para pedido
 Dron realizando un envio
 
 ![Dron realizando un envio](./images/dronBusy.png)
+
+```Ejecucion del programa```
+
+``` pade start-runtime --num 1 --port 20000 .\main.py```
+
+
 
 ### Captura del programa
 
